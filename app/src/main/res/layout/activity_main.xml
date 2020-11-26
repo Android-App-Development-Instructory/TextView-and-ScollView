@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Md. Al-Amin"
+        android:textSize="20sp"
+        android:textIsSelectable="true"
+        android:textColorHighlight="#009688"
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Age: 23 "
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:id="@+id/nameTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Md. Al-Amin 01"
+        android:textSize="20sp"
+        android:textIsSelectable="true"
+        android:textColorHighlight="#009688"
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+
+    <TextView
+        android:id="@+id/ageID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Age: 23 01"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+</LinearLayout>
